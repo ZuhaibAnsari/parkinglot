@@ -28,6 +28,7 @@ public class CommandsFactory {
             case SLOT_NUMBER_FOR_REGISTRATION_NUMBER:
                 return SLOT_NUMBER_FOR_REGISTRATION_NUMBER_COMMAND;
             default:
+                //Look at using Optionals .. a more cleaner way to handle nulls
                 return null;
         }
     }
