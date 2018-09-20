@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CommandService implements ServiceMarker
 {
+//Can these be autowired
     private CreateParkingLotCommand createParkingLotCommand;
     private LeaveCommand leaveCommand;
     private ParkCommand parkCommand;
