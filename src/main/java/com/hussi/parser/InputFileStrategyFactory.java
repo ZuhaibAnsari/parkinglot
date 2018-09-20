@@ -3,6 +3,8 @@ package com.hussi.parser;
 import com.hussi.enums.InputFileTypesEnum;
 
 public class InputFileStrategyFactory {
+    
+    //Lazy initialization would be good option .. initialize only when called
     private static final InputFileStrategy CSV_PARSER = new CSVParser();
     private static final InputFileStrategy JSON_PARSER = new JSONParser();
     private static final InputFileStrategy EXCEL_PARSER = new EXCELParser();
