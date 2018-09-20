@@ -27,6 +27,7 @@ public class Customer
 	{
 		this.car = car;
 	}
+	// structure it right .. this should go on top and car should have a access specifier
 	String customer_name;
 	Car car;
 	
