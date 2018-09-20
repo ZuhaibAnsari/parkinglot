@@ -7,6 +7,7 @@ public enum CarColorsEnum
     WHITE("white"),
     RED("red");
 
+    //More logical name like color and getColor
     private String value;
 
     public String getValue() {
