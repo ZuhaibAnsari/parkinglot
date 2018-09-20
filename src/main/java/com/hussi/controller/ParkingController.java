@@ -17,6 +17,7 @@ import java.util.Date;
 public class ParkingController {
     private static final Logger logger = LoggerFactory.getLogger(ParkingController.class);
 
+    //@GetMapping is the new way of doing things , more readable 
     @RequestMapping(value = "/parkingFare", method = RequestMethod.GET, produces = "application/json")
     public @ResponseBody
     String parkingFare(@RequestParam("entry_time") String entry_time, @RequestParam("exit_time") String exit_time) {
