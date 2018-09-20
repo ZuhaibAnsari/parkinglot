@@ -15,6 +15,7 @@ public class Car {
     public String toString()
     {
         String toString = "";
+        //Value can be null?? may be use terniary to return blank when null
         toString += "car registrationNumber =>"+registrationNumber;
         toString += " : car color =>"+color;
         return toString;
