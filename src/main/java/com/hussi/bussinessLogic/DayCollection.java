@@ -10,7 +10,6 @@ public class DayCollection implements ReportingInterface
 {
 
 	private static final Logger logger = LoggerFactory.getLogger(DayCollection.class);
-//	@Override
 	public long getDaysCollection(Date date)
 	{
 		logger.info("scan records from DB on daily basis");
